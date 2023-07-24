@@ -1,0 +1,170 @@
+.container-nav{
+    width: 100%; 
+    height: 90px;
+    margin-top: 27px;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 166px;
+}
+
+
+.container-ul{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    padding-top: 12px;
+}
+
+.nav-link span{
+    color: #181E45;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+} 
+
+.nav-link span:hover{
+    color: #5E5E5E; 
+} 
+
+.navbar-brand img{
+    width: 141px;
+    height: 90px;
+}
+
+.container-buttons{
+    display: flex;
+    gap: 16px;
+}
+
+.btn{
+    height: 52px;
+    width: 166px;
+}
+
+.btn-loging{
+    display: flex;
+    padding: 18px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-radius: 6px;
+    border: 1px solid #181E45;
+    background: #FFF;
+}
+
+.btn-singup{
+    display: flex;
+    padding: 18px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-radius: 6px;
+    background: #181E45;
+    box-shadow: 0px 18px 36px 0px rgba(24, 30, 69, 0.12);
+}
+
+.btn-loging span{
+    color: #181E45;
+    text-align: center;
+    font-family: FM Bolyar Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px; 
+    text-transform: uppercase;
+}
+
+.btn-singup span{
+    color: #FFF;
+    text-align: center;
+    font-family: FM Bolyar Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+
+.container-menu-icon{
+    display: none;
+} 
+.container-fluid{
+    /* display: none;   */
+}
+
+@media only screen and (min-width: 560px) and (max-width: 1200px) {
+
+    .navbar-brand img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .container-nav{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container-nav{
+        padding-left: 41px;
+        padding-right: 41px;
+        display: flex;
+        justify-content: space-between; 
+        margin-top: 18px;
+        height: auto;
+    }
+
+   .container-menu{
+       display: none;
+   }
+
+   .navbar-brand img{
+       width: 94px;
+       height: 60px;
+    }
+
+    .container-menu-icon{
+        display: flex;
+    } 
+ 
+    .container-menu-icon button{
+        border: none;
+        background-color: #FFF;
+    }
+ 
+    .container-menu-icon img{
+        width: 24px;
+        height: 18px;
+    }
+
+    .navbar-collapse {
+        background-color: #181E45;
+    }
+
+    .container-fluid .nav-item{
+        text-align: center;
+    }
+    
+    .container-fluid span{
+        color: #FFF;
+        transition: #a19f9f 0.3s ease; 
+    }
+
+    .container-fluid span:hover {
+        color: #a19f9f;
+    }
+
+}

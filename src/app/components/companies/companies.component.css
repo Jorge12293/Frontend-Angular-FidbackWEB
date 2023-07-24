@@ -1,0 +1,396 @@
+.title{
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+
+.description1,
+.description2{
+    min-width: 340px;
+}
+
+.title h4{
+    color: #181E45;
+    font-family: FM Bolyar Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+    text-align: center;
+}
+
+.container-icon-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-icon{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.container-icon img{
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+
+
+.container-features{
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 96px;
+}
+
+
+.container-text{
+   display: flex;
+   flex-direction: column;
+   align-content: flex-start;
+   align-items: flex-start;
+   justify-content: flex-start;
+   max-width: 640px;
+   width: 35;
+}
+
+
+
+
+
+.container-imgs img{
+    width: 704px;
+    height: 704px;
+    max-width: 100%;
+}
+
+.container-icon-feature img{
+    width: 54px;
+    height: 45px;
+}
+
+.text-title{
+    color: #181E45;
+    font-family: FM Bolyar Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+    margin-bottom: 16px;
+}
+
+.text-subtitle{
+    color: #5E5E5E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 109px;
+}
+
+
+.btn{
+    display: inline-flex;
+    padding: 21px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-radius: 6px;
+    background: #181E45;
+    box-shadow: 0px 18px 36px 0px rgba(24, 30, 69, 0.12);
+}
+
+
+button p{
+    color: #FFF;
+    text-align: center;
+    font-family: FM Bolyar Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 18px; /* 100% */
+    text-transform: uppercase;
+}
+
+
+.container-description{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 90px;
+    gap: 30px;
+}
+
+.description1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    border-radius: 18px;
+    background: rgba(24, 30, 69, 0.06);
+    padding: 48px;
+    /* width: 705px; */
+    max-width: 705px;
+    width: 45%;
+}
+
+.description1 p{
+    color: #181E45;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px; /* 126.667% */
+    margin-bottom: 36px;
+}
+
+.description1 ul li {
+    color: #181E45;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
+
+.description2{
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    border-radius: 18px;
+    background: #181E45;
+    padding: 48px;
+    /* width: 705px; */
+
+    max-width: 705px;
+    width: 45%;
+
+}
+
+.description2 ul li {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+}
+
+.description2 p{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px; /* 126.667% */
+    margin-bottom: 36px;
+}
+
+ul {
+    list-style-type: disc;
+}
+  
+ul li {
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.description-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.btn{
+    display: flex;
+    padding: 22px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border-radius: 6px;
+    box-shadow: 0px 18px 36px 0px rgba(24, 30, 69, 0.12);
+}
+
+.description1 .btn{
+    color: #FFF;
+    background: #181E45;
+}
+
+.description2 .btn{
+    color: #181E45;
+    background: #FFF;
+}
+
+.btn span{
+    text-align: center;
+    font-family: FM Bolyar Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 16px; /* 100% */
+    text-transform: uppercase;
+}
+
+.companies-images-slider{
+    display: none;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .container-icon-images{
+        display: none;
+    }
+    
+    .title{
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 32px;
+        text-transform: capitalize;
+        margin-top: 48px;
+    }
+
+    .companies-images-slider{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .image-icon img {
+        height: 50px;
+    }
+
+
+    .container-features{
+       display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        gap: 48px;
+        margin-top: 45px;
+    }
+    .container-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-title{
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px; 
+    }
+    
+    .text-subtitle{
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        margin-bottom: 36px;
+    }
+
+
+    .container-imgs img{
+        width: 338px;
+        height: 338px;
+    }
+    
+    .container-icon img{
+        width: 28px;
+        height: 24px;
+    }
+    
+    .container-description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .description1 {
+        padding: 36px 24px;
+        width: 338px;
+    }
+    
+    .description2{
+        padding: 36px 24px;
+        width: 338px;
+    }
+
+
+    .description1 p{
+        font-size: 24px;
+        line-height: 32px; /* 133.333% */
+    }
+
+    ul li {
+        padding-bottom: 12px;
+    }
+
+    .description1 ul li {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+
+    .description2 ul li {
+        font-size: 16px;
+        line-height: 24px; /* 150% */
+    }
+
+    .description2 p{
+        font-size: 24px;
+        line-height: 32px; 
+    }
+
+    .btn{
+        display: flex;
+        padding: 17px 30px;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        border-radius: 6px;
+        box-shadow: 0px 18px 36px 0px rgba(24, 30, 69, 0.12);
+    }
+    
+    .btn span{
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 14px;
+        text-transform: uppercase;
+    }
+
+    .title h4{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+}

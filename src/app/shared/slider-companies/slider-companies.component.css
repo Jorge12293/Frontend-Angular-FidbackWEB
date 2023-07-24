@@ -1,0 +1,22 @@
+.carousel-control-prev{
+    display: none;
+}
+
+.carousel-control-next{
+    display: none;
+}
+
+.carousel-item-card{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-item-card img{
+    height: auto;
+    width: 160px;
+}
+
+
+.carousel-inner{
+    height: 55px;
+}

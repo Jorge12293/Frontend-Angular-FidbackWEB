@@ -1,0 +1,25 @@
+<div class="slider-container">
+    <div class="slider">
+      <div id="carouselId" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item" *ngFor="let slide of listImages; let i = index" [class.active]="i === 0">
+            <div class="container-img-slider">
+              <div class="container-imagen">
+                <img [src]="slide.url" [alt]="slide.title">
+              </div>
+            </div>
+            <div class="container-text-slider">
+              <h4>{{slide.title}}</h4>
+              <p>{{slide.description}}</p> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="controls">
+      <button 
+        data-bs-target="#carouselId" data-bs-slide="prev"><span>&larr;</span></button>
+      <button 
+        data-bs-target="#carouselId" data-bs-slide="next"><span>&rarr;</span></button>
+    </div>
+</div>

@@ -1,0 +1,142 @@
+.container-advantage{
+    background: #181E45;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: calc(102px - 42px);
+}
+
+.container-advantage .detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img{
+    width: 54px;
+    height: 45px;
+    margin-top: 120px;
+}
+
+.container-advantage h4{
+    color: #FFF;
+    text-align: center;
+    font-family: FM Bolyar Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; /* 116.667% */
+    margin-bottom: 16px;
+}
+
+.container-advantage p {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.container-items {
+    display: flex;
+    /* align-items: center; */
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item{
+   display: flex;
+   justify-content: flex-start;
+   gap: 30px;
+   padding: 42px 30px;
+   /* width: 460px; */
+   /* width: 33.33%;
+   max-width: 640px; */
+   width: 26%;
+   max-width: 640px;
+   min-width: 300px
+}
+
+
+.item-container-img{
+    width: 90px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item-container-img img{
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.item-container-text{
+    width: 200px;
+}
+
+.item-container-text p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 38px; /* 126.667% */
+    text-align: left;
+}
+
+
+@media screen and (max-width: 560px) {
+    
+    .container-advantage{
+        display: flex;
+        flex-direction: column;
+        gap: 36px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding: 60px 24px;
+    }
+
+    .icon img{
+        margin-top: 19px;
+        margin-bottom: 16px;
+        width: 28px;
+        height: 24px;
+        color: #FFFFFF;
+    }
+
+    .container-advantage .detail h4{
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+    }
+    
+    .container-advantage .detail p {
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; 
+        margin-bottom: 24px;
+        
+        opacity: 0.7200000286102295;
+    }
+ 
+
+   .container-items{
+      display: none;
+   }
+
+}

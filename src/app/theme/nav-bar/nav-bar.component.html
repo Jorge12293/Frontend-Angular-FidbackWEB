@@ -1,0 +1,51 @@
+
+<nav class="container-nav">
+  <div class="icon-nav">
+    <a class="navbar-brand" [routerLink]="['/']">
+      <img src="assets/img/logo-main.png" alt="icon-logo">
+    </a>
+  </div>
+  <div class="container-menu">
+    <ul class="container-ul">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="active"><span class="menu-nav">Home</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="active"><span class="menu-nav">Product</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="active"><span class="menu-nav">Features</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']" routerLinkActive="active"><span class="menu-nav">Contact</span></a>
+      </li>
+    </ul>
+    <div class="container-buttons">
+      <button class="btn btn-loging" type="button"><span>LOG IN</span></button>
+      <button class="btn btn-singup" type="button"><span>SING UP</span></button>
+    </div>
+  </div>
+  <div class="container-menu-icon">
+    <button type="button"
+     data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+    > <img src="assets/svg/menu.svg" alt="icon-menu"> </button>
+  </div> 
+</nav>
+<div class="container-fluid">
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']"><span class="sub-menu-nav">Home</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']"><span class="sub-menu-nav">Product</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']"><span class="sub-menu-nav">Features</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" [routerLink]="['/']"><span class="sub-menu-nav">Contact</span></a>
+      </li>
+    </ul>
+  </div>
+</div>

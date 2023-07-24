@@ -1,0 +1,100 @@
+
+  .slider-container{
+    display: none;
+  }
+  
+
+  @media screen and (max-width: 560px) {
+    .slider-container{
+        display: inline;
+        background: #FFF;
+    }
+    
+    .slider{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .carousel-control-prev-icon {
+      display: none;
+    }
+    .carousel-control-next-icon {
+      display: none;
+    }
+    
+
+    .carousel-item {
+      padding-right: 42px;
+      padding-left: 42px;
+      padding-bottom: 30px;
+    }
+
+    .card-carousel{
+      display: flex;
+      padding: 30px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #FFF;
+      box-shadow: 0px 48px 42px 0px rgba(0, 0, 0, 0.04);
+    }
+
+    .carousel-sub-description{
+      color: #5E5E5E;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; 
+      opacity: 0.9599999785423279;
+    }
+    
+    .carousel-img{
+      margin-top: 30px;
+      margin-bottom: 18px;
+    }
+
+    .carousel-img img{
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+    }
+  
+    .carousel-title{
+      color: #181E45;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 22px;
+    }
+
+    .carousel-description{
+      color: #5E5E5E;
+      text-align: center;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px; 
+    }
+  
+    .controls{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 48px;
+    }
+    
+    .controls button{
+      border-radius: 25px;
+      background: #FFF;
+      height: 36px;
+      width: 36px;
+    }
+
+  }
+

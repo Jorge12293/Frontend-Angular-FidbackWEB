@@ -1,0 +1,102 @@
+
+.container-our-apps{
+    background-color: #181E45;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    padding-top: 73px;
+}
+
+.item-detail{
+    /* width: 640px; */
+    max-width: 640px;
+    width: 35%;
+}
+
+
+.title{
+    color: #FFF;
+    font-family: FM Bolyar Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px; 
+}
+
+.description{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0.7200000286102295; 
+}
+
+
+.container-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 0px 30px;
+}
+button{
+    margin: 6px;
+}
+
+
+.item-imagen img{
+    max-width: 672px;
+    width: 95%;
+    height: 545px;
+}
+
+@media screen and (max-width: 560px) {
+    .container-our-apps{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin-left: 24px;
+        margin-right: 24px;
+        padding-right: 18px;
+        padding-left: 18px;
+        padding-top: 60px;
+    }
+    
+    .item-detail{
+        width: 100%;
+    }
+
+    .title{
+        text-align: center;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 44px; /* 129.412% */
+    }
+
+    .description{
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 150% */
+    }
+
+    .container-buttons{
+        display: flex;
+        justify-content: center;
+        gap: 0px 12px;
+    }
+
+    .item-imagen img{
+        width: 100%;
+       height: auto;
+    }
+
+}

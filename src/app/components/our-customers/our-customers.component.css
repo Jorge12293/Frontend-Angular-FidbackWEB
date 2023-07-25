@@ -1,22 +1,23 @@
 .container-customer{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
 }
 
 .customer-description{
+   align-self: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 950px;
 }
 
+
 .icon-customers img {
     margin-top: 120px;
     width: 54px;
     height: 45px;
 }
+
 
 .container-customer .title{
     margin-top: 16px;
@@ -32,15 +33,14 @@
 
 .container-customer .subtitle{
     margin-top: 16px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     color: #5E5E5E;
     text-align: center; 
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px; /* 140% */
-
+    line-height: 28px; 
 }
 
 .list-customers{
@@ -49,17 +49,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
+    gap: 30px;
 }
 
 
 
 .customers{
-    /* width: 460px; */
-    width: 30%;
-    min-width: 400px;
+    max-width: 400px;
+    width: 350px;
     padding: 42px 32px; 
     display: flex;
     flex-direction: column;
@@ -130,12 +129,32 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
-    line-height: 18px; /* 100% */
+    line-height: 18px; 
     text-transform: uppercase;
   }
 
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+  .customer-description{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
-@media screen and (max-width: 560px) {
+  .container-customer .title {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+  .list-customers{
+    justify-content: space-around;
+    gap: 0px;
+  }
+
+  .customers{
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 576px) {
     .container-customer{
       padding-left: 42px;
       padding-right: 42px;

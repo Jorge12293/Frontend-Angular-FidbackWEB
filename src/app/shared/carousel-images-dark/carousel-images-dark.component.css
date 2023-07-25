@@ -93,7 +93,7 @@
   }
   
   
-  @media screen and (max-width: 560px) {
+  @media screen and (max-width: 576px) {
     .slider-container{
       display: inline;
     }

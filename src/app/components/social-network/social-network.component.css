@@ -24,7 +24,6 @@
 } 
 
 .list-network{
-    /* width: 215px; */
     width: 200px;
 }
 
@@ -53,7 +52,15 @@
     line-height: 20px; 
 }
 
-@media screen and (max-width: 560px) {
+
+@media only screen and (min-width: 577px) and (max-width: 1200px) {
+    .list-network{
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
     .container-network{
         display: flex;
         flex-direction: column;

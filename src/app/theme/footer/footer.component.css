@@ -1,7 +1,5 @@
 .container-footer{
-    /* padding-left: 240px;
-    padding-right: 240px; */
-    padding-left: 100px;
+    padding-left: 7%;
     padding-right: 100px;
     padding-bottom: 81px;
 }
@@ -25,7 +23,7 @@ span{
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 576px) {
     .container-footer {
         padding-left: 41px;
         padding-right: 41px;

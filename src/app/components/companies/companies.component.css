@@ -1,6 +1,8 @@
 .title{
     margin-top: 120px;
     margin-bottom: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
@@ -39,6 +41,7 @@
     align-items: center; 
 }
 
+
 .container-icon img{
     width: 200px;
     height: auto;
@@ -48,7 +51,7 @@
 
 .container-features{
     display: flex;
-    margin-top: 120px;
+    margin-top: 80px;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
@@ -288,6 +291,9 @@ ul li {
 
 
 @media only screen and (min-width: 796px) and (max-width: 991px) {
+   
+
+
     .container-description{
         gap: 30px;
     }
@@ -317,6 +323,13 @@ ul li {
 
     .container-imgs img{    
         width: 350px;
+    }
+
+    .title{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-left: 0px; 
+        padding-right: 0px; 
     }
 
     .title h4{
@@ -369,6 +382,7 @@ ul li {
         font-size: 30px;
         line-height: 39px;
     }
+
     
     .container-imgs{
         display: flex;
@@ -377,6 +391,15 @@ ul li {
 
     .container-imgs img{    
         width: 80%;
+    }
+    
+    .title{
+        padding-left: 5%;
+        padding-right: 5%;
+
+        padding-left: 0px; 
+        padding-right: 0px;
+        
     }
 
     .title h4{
@@ -396,6 +419,11 @@ ul li {
         display: none;
     }
     
+    .title{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
     .title{
         text-align: center;
         font-size: 24px;

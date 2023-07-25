@@ -57,7 +57,7 @@ button{
 
 
 
-@media only screen and (min-width: 806px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
     .container-our-apps{
         gap: 30px;
     }
@@ -97,14 +97,53 @@ button{
     } 
 }
 
-/* @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-} */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
 
-
-@media only screen and (min-width: 577px) and (max-width: 805px) {
     .container-our-apps{
+        gap: 30px;
+    }
 
+    .item-imagen img{
+        width: 380px;
+    }
+
+    .item-detail{
+        width: 60%;
+        text-align: center;
+    }
+
+    .title{
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .description{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    
+    .container-buttons{
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+    .btn-app-white {
+        width: 140px;
+        height: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .btn-app-white img {
+        width: 100px;
+        height: auto;
+    } 
+} 
+
+@media only screen and (min-width: 577px) and (max-width: 795px) { 
+    .container-our-apps{
         gap: 30px;
     }
 

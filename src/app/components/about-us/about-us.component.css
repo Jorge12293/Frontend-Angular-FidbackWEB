@@ -12,7 +12,8 @@
 .imagen img{
     max-width: 640px;
     width: 450px;
-    height: auto;
+    /* height: auto; */
+    height: 550px;
 }
 
 
@@ -62,6 +63,7 @@
 
     .imagen img{
         width: 350px;
+        height: auto;
     }
     
     .description{
@@ -79,6 +81,7 @@
 
     .imagen img{
         width: 80%;
+        height: auto;
     }
     
     .description {

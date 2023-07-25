@@ -28,6 +28,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .title-button{
